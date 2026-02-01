@@ -34,5 +34,5 @@ if (savedData) {
         formData.email = "";
         formData.message = "";
     });
-}
+};
 
