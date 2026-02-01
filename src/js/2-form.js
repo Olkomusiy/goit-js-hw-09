@@ -15,6 +15,7 @@ if (savedData) {
     formData.message = parsedData.message || "";
     emailInput.value = formData.email;
     messageInput.value = formData.message;
+}
 
     form.addEventListener('input', (event) => {
         const { name, value } = event.target;
@@ -34,5 +35,4 @@ if (savedData) {
         formData.email = "";
         formData.message = "";
     });
-};
 
