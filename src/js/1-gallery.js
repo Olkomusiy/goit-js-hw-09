@@ -76,8 +76,8 @@ const galleryMarkup = images
             <a class="gallery-link" href="${original}">
             <img
 		      class="gallery-image" 
-		      src="small-image.jpg" 
-		      alt="Image description"
+		      src="${preview}" 
+		      alt="${description}"
           />
         </a>
            </li>
@@ -92,6 +92,6 @@ const lightbox = new SimpleLightbox(".gallery a", {
     captionsData: "alt",
     captionDelay: 250,
 
-})
+});
 
   
